@@ -1,0 +1,103 @@
+nav {
+    background-color: #ca2525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  a {
+    padding: 16px;
+    color: #f2f2f2;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+   font-family: SouthPark;
+  }
+
+  a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    background-color: #ac0d0d;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    background-image: url("Bus-stope.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    font-family: SouthPark;
+  }
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #780c0c;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+  
+}
+
+.container h2 {
+    font-size: 30px;
+    text-align: center;
+  
+    color: white;
+}
+
+@font-face {
+    font-family: SouthPark;
+    src: url(south\ park.ttf);
+}
+
+.content {
+    margin: 1.5rem 0;
+    padding: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.btn-fact {
+    background-color: rgb(22, 14, 14);
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin-top: 50px;
+}
+
+.ok {
+    font-family: SouthPark;
+    color: white;
+}
+
+.btn-fact:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s;
+    margin-top: 50px;
+}
+
+.fact {
+    color: rgb(255, 197, 197);
+}
+

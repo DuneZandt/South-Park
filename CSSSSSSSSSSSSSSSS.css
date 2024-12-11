@@ -1,111 +1,149 @@
 nav {
-  background-color: #ca2525;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 55px;
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  z-index: 10;
-}
-
-a {
-  padding: 16px;
-  color: #f2f2f2;
-  align-items: center;
-  text-decoration: none;
-  font-size: 20px;
- font-family: SouthPark;
-}
-
-a:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s;
-  background-color: #990b0b;
-}
-
-body {
-  background-image: url("Bus-stope.png");
-  background-position: center;
-  background-size: cover;
-  margin: 0px;
-}
-
-p {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: SouthPark;
-  color: #e1e3f2;
-  text-align: center;
-}
-
-.img1 {
-
+    background-color: #ca2525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+  }
+  
+  a {
+    padding: 16px;
+    color: #f2f2f2;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+   font-family: SouthPark;
+  }
+  
+  a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    background-color: #990b0b;
+  }
+  
+  body {
+    background-image: url("Bus-stope.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+  }
+  
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: SouthPark;
+    color: #e1e3f2;
+    text-align: center;
+  }
+  
+  .img1 {
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    border: 5px solid #e1e3f2;
+  
+  }
+  
+  .img2 {
+  width: 400px;
+  position: relative;
+  float: right;
+  animation-name: cartman;
+  animation-duration: 60s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  bottom: 90px;
+  }
+  
+  .img3 {
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
   display: block;
-  border: 5px solid #e1e3f2;
-
-}
-
-.img2 {
-width: 400px;
-position: relative;
-float: right;
-animation-name: cartman;
-animation-duration: 60s;
-animation-fill-mode: forwards;
-animation-iteration-count: infinite;
-bottom: 90px;
-}
-
-.img3 {
-width: 300px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-padding: 100px;
-}
-
-@keyframes cartman {
-
-from {right:-200px;}
-to {right:2000px;}
-
-}
-
-  .tab {
-    overflow: hidden;
-    background-color: #780c0c;
+  padding: 100px;
+  }
+  
+  @keyframes cartman {
+  
+  from {right:-200px;}
+  to {right:2000px;}
+  
+  }
+  
+    .tab {
+      overflow: hidden;
+      background-color: #780c0c;
+    }
+  
+    .tab button {
+      font-family: SouthPark;
+      font-size: 15px;
+      color: #ffffff;
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+    }
+  
+    .tab button:hover {
+      background-color: #510909;
+      transform: scale(1.1);
+    }
+  
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border-top: none;
+    }
+  
+    @font-face {
+      font-family: SouthPark;
+      src: url(south\ park.ttf);
   }
 
-  .tab button {
+  .gah {
+    padding: 0px 60px;
+  }
+
+
+  h3 {
     font-family: SouthPark;
-    font-size: 15px;
-    color: #ffffff;
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+    color: #f01d1d;
+    font-size: 30px;
+    text-align: center;
   }
 
-  .tab button:hover {
-    background-color: #510909;
-    transform: scale(1.1);
+  .crazy {
+    padding: 0px 100px;
   }
 
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
+  .image {
+    padding: 5px 35px;
+
   }
 
-  @font-face {
-    font-family: SouthPark;
-    src: url(south\ park.ttf);
-}
+  .container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+ 
+   .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+   }
+
+   .image2 {
+    width: 500px;
+   }
